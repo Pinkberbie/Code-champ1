@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel=" icon" href="./4.png">
+    <title>Learn programming</title>
+</head>
+<body>
+    <section id="banner">
+        <img src="4.png"class="logo">
+        <div class="banner-text">
+            <h1>Computer Science</h1>
+            <p>Full computer science course on coding and programming languages</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>Read More</a>
+            <a href="#"><span></span>Enroll Now</a>
+        </div>
+        </div>
+    </section>
+
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">LIBARY</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menubtn">
+    <img src="menu.png" id="menu">
+</div>
+
+
+<section id="features">
+<div class="title-text">
+    <p>About</p>
+</div>
+
+
+<div class="features-box">
+    <div class="features">
+        <h1>Software Engineers are computer science professionals<br> Who use the principle of programming<br> Language to build and run softwares    </h1>
+    </div>
+    <div class="features-img">
+        <img src="bb.jpg">
+     </div>
+</div>
+   
+
+
+</section>
+
+<!--programmes  -->
+
+
+<section id="programmes">
+    <section id="features">
+    <div class="title-text">
+    <p>Programs</p>
+    </div>
+    <div class="program-box">
+        <div class="single-service">
+            <img src="htmll.jpg">
+            <div class="overlay"></div>
+            <div class="desc">
+                <h1>HTML</h1>
+                <hr>
+                <p>HTML is an acronym which stands for Hyper 
+                    Text Markup Language which is used 
+                    for creating web pages and web applications.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="cssl.jpg">
+            <div class="overlay"></div>
+            <div class="desc">
+            <h1>CSS</h1>
+            <hr>
+            <p>CSS stands for Cascading Style Sheets
+                 and is a styling language that allows 
+                 you to style your web pages in an efficient
+                  and easy manner.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="javal.jpg">
+            <div class="overlay"></div>
+            <div class="desc">
+            <h1>Java Script</h1>
+            <hr>
+            <p>JavaScript is a scripting or a programming language, allowing developers to perform complex features on web pages.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="pytl.jpg">
+            <div class="overlay"></div>
+            <div class="desc">
+            <h1>Python</h1>
+            <hr>
+            <p>Python is a general-purpose, interpreted, high-level programming language popularly used for website development, data analytics and automation.</p>
+            </div>
+        </div>  
+    </div>
+</section>
+
+<section id="advantages">
+    <div class="title-text">
+        <p>Advantages</p>
+    </div>
+
+    <div class="advantages-row">
+        <div class="advantages-col">
+            <p> Programers are of high Demand because there are only 27.7 milion 
+                which is really small considering how many are needed, so getting
+                a job after school is not a problem 
+                Beacause the current Jobless programmers are
+                7.3% Out of the 100% programmers</p>
+        </div>
+           
+        <div class="advantages-col">
+            <p> The pay for software Engineers is very high because
+                of how useful they are, The average rate for a Junior 
+                software Engineer(Amateur) is 500,000 naira per month
+                and that if you are working in a small or average company</p>
+        </div>
+        <div class="advantages-col">
+            <p> You could go into software Engineering without getting a degree
+                and still get paid high, infact a software engineer getting fired 
+                for no Cruicial reason is really rare considering how 
+                softwareenginner are needed.</p>
+        </div>
+                    
+    </div>
+
+    
+</section>
+
+<section id="footer">
+    <div class="title-text">
+        <p>Contact Us</p>
+    </div>
+<div class="footer-row">
+<div class="footer-left">
+    <a href="#">Terms and condition</a>
+</div>
+<div class="footer-right">
+    <
+</div>
+</div>
+</section>
+    
+
+
+
+
+
+
+
+
+
+<script>
+var menubtn = document.getElementById("menubtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px"
+
+menubtn.onclick = function(){
+    if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0";
+        menu.src = "s.png";
+    }
+    else{
+        sidenav.style.right = "-250px";
+        menu.src = "menu.png";
+    }
+}
+
+</script>
+
+
+</body>
+</html>
